@@ -1,16 +1,16 @@
 .navbar {
-  font-size: 1.05rem;
+  font-size: 1.05rem!important;
 }
 .navbar__up-arrow {
-  position: absolute;
-  top: 0;
-  left: 50%;
-  transform: translate(-50%);
+  position: absolute!important;
+  top: 0!important;
+  left: 50%!important;
+  transform: translate(-50%)!important;
 }
 .navbar__up-arrow * {
-  color:var(--muted)
+  color:var(--muted)!important;
 }
 .nav__link:hover {
-  color: var(--muted)
+  color: var(--muted)!important;
 
 }

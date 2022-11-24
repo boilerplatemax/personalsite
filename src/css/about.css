@@ -1,12 +1,12 @@
 .about__img {
-  width: 100%;
-  max-width: 500px;
-  height: auto;
+  width: 100%!important;
+  max-width: 500px!important;
+  height: auto!important;
 }
 .about__list-double{
-  columns: 2;
-  -webkit-columns: 2;
-  -moz-columns: 2;
+  columns: 2!important;
+  -webkit-columns: 2!important;
+  -moz-columns: 2!important;
 }
 .about__song-holder *{
   margin-bottom: -50px;
