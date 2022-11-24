@@ -1,0 +1,16 @@
+.navbar {
+  font-size: 1.05rem;
+}
+.navbar__up-arrow {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+.navbar__up-arrow * {
+  color:var(--muted)
+}
+.nav__link:hover {
+  color: var(--muted)
+
+}

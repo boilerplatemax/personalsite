@@ -1,0 +1,16 @@
+.capitalize {
+  text-transform: capitalize;
+}
+
+.bg-holder{
+  position: absolute;
+  top:0;
+}
+.bold{
+  font-weight: bold;
+}
+.dark-bg{
+  background-color: var(--onyx);
+  width: 100vw;
+  height:100vh;
+}

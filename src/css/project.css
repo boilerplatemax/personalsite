@@ -1,0 +1,40 @@
+#projects{
+    background-color: var(--muted);
+    
+}
+.project__card {
+  background-color: var(--cultured);
+    color:var(--onyx);
+  height: calc(100% - 20px);
+  
+    
+  /* border: 1px solid var(--cultured); */
+}
+.project__card-img,
+iframe {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  filter:brightness(100%);
+  transition: transform 0.15s ease-in-out;
+}
+.project__card-img:hover{
+  filter:brightness(95%);
+  transform: scale(1.015);
+}
+.project__skills-list{
+  margin-bottom: 60px;
+}
+.project__skills-list-double{
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.project__card-title,.project__card-title:link, .project__card-title:active, .project__card-title:visited{
+  color:var(--onyx)!important;
+  text-decoration: none!important;
+}
+.project__card-title:hover{
+  color:var(--onyx-light)!important;
+}
