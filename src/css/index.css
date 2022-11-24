@@ -1,16 +1,25 @@
-.capitalize {
-  text-transform: capitalize;
+@import "App.css";
+@import "button.css";
+@import "home-page.css";
+@import "about.css";
+@import "navbar.css";
+@import "img.css";
+@import "project.css";
+@import "footer.css";
+@font-face {
+  font-family: Nunito;
+  src: url(../fonts/Nunito-Regular.woff);
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.bg-holder{
-  position: absolute;
-  top:0;
-}
-.bold{
-  font-weight: bold;
-}
-.dark-bg{
-  background-color: var(--onyx);
-  width: 100vw;
-  height:100vh;
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
 }

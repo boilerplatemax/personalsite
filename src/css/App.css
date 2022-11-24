@@ -1,14 +1,4 @@
-@import "button.css";
-@import "home-page.css";
-@import "about.css";
-@import "navbar.css";
-@import "img.css";
-@import "project.css";
-@import "footer.css";
-@font-face {
-  font-family: Nunito;
-  src: url(../fonts/Nunito-Regular.woff);
-}
+
 
 :root {
   --primary: #343f64;
