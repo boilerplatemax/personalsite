@@ -9,10 +9,7 @@ import ContactPage from "./pages/ContactPage";
 import Footer from "./components/Footer";
 import Loading from "./components/Loading";
 
-
-
 const LazyProjects = React.lazy(()=>import("./pages/Projects"))
-
 
 
 export const AppContext = React.createContext();
