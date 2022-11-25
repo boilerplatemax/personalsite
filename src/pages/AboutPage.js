@@ -21,19 +21,27 @@ export default function AboutPage() {
               <p>
                 I am recent graduate from OCAD University with a Bachelor's of Design in <span className='bold'>Digital Futures</span>.
               </p>
+              <p>
+                Additionally, I have taken University of Helsinki's Open FullStack Developer course to expand my knowledge on web apps and React JS <span className='bold'>Digital Futures</span>.
+              </p>
               </div>
+    
               <div className='mb-5'>
-              <h2>What I gained from Digital Futures</h2>
+              <h2>React Skills</h2>
               <ul className='about__list-double'>
-                <li>Computer software and coding</li>
-                <li>Smart phone app development</li>
-                <li>Physical computing</li>
-                <li>3D Modelling</li>
-                <li>Game design</li>
-                <li>Social media trend forecasting</li>
-                <li>Computer science history</li>
-                <li>Digital business</li>
-                <li>Wearable computing</li>
+                <li>HTML, CSS, JSX</li>
+                <li>ES6 Javascript</li>
+                <li>Typescript</li>
+                <li>React Hooks</li>
+                <li>Github</li>
+                <li>Bootstrap</li>
+                <li>MongoDB</li>
+                <li>UX/UI principles</li>
+                <li>Testing (Jest)</li>
+                <li>Firebase</li>
+                <li>HTTP requests</li>
+                <li>Node</li>
+                <li>Next.JS</li>
               </ul>
               </div>
 
@@ -43,15 +51,23 @@ export default function AboutPage() {
           <Container fluid className='bg-dark'>
           <Row className='pt-5'>
             <Col className='mb-3' lg={{span:4,offset:2}}>
-              <div className='mb-3'>
-              <h2>What else do I do besides code apps?</h2>
+              <div>
+              <h2>My Interests</h2>
+              <hr/>
+              <h4>Playing music</h4>
               <p>I have a passion for <span className='bold'>music</span> and <span className='bold'>playing guitar</span>.</p>
               <p>My love for software began when I decided to learn how to code games for a school project.</p>
-              <h2>I enjoy creating video games</h2>
-              <p>I get a thrill out of learning how things function which is why I enjoy playing games and trying to figure out how they work.</p>
-              <h2>I love travelling</h2>
-              <p>I recently took a trip to Europe and fell in love with the scenery and culture.</p>
-              <p>My dream is to see the pyramids and swim in the dead sea.</p>
+              <h4>Making video games</h4>
+              <p>I get a thrill out of learning how things function which is why I enjoy playing games and trying to figure out how they work.
+                <a href='https://udaco.itch.io/'
+                rel="noopener noreferrer"
+                target='_blank'
+                className='text-white'>
+              Check out some games that I have worked on!</a>
+              </p>
+              <h4>Travelling</h4>
+              <p>I recently took a trip to Europe and fell in love with the scenic views and lively culture.</p>
+              <p>My dream is to see the Great Pyramids and swim in the Dead Sea.</p>
 
 
               </div>

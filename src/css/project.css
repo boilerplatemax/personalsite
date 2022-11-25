@@ -4,7 +4,7 @@
 }
 .project__card {
   background-color: var(--cultured)!important;
-    color:var(--onyx)!important;
+  color:var(--onyx)!important;
   height: calc(100% - 20px)!important;
   
     

@@ -50,11 +50,8 @@ const Contact = ({setMessage}) => {
         <Form.Label>Message</Form.Label>
         <Form.Control as="textarea" name="message" placeholder="Message"/>
         </Form.Group>
-        {/* {canSend?
-        <Button type="submit" className='btn p-2' >Submit</Button>:
-        <Button type="submit" className='btn p-2' disabled >Submit</Button>
-        } */}
-        <Button type="submit" className='btn p-2' >Submit</Button>
+
+        <Button type="submit" className='btn btn--secondary' >Submit</Button>
         
       </Form>
 

@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeImage from "../resources/images/homeimg.png";
 import { Animated } from "react-animated-css";
-
+import resume from '../resources/resume.pdf'
 export default function HomePage() {
   //Home page
 
@@ -36,7 +36,7 @@ export default function HomePage() {
                         My Work
                       </button>
                     </a>
-                    <a href="/" className='p-2'>
+                    <a href={resume} className='p-2' rel="noopener noreferrer" target='_blank'>
                       <button className="btn btn--secondary btn--large">
                         Resume
                       </button>

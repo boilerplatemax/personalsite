@@ -12,9 +12,9 @@
   border: 4px solid var(--electric-blue)!important;
 }
 .btn--primary:hover {
-  background-color: var(--electric-blue)!important;
-  border: 4px solid transparent!important;
-  color:var(--primary)
+
+  color: var(--primary)!important;
+  background-color:var(--electric-blue)!important;
 }
 .btn--project-link {
   padding: 5px 10px!important;
@@ -40,7 +40,7 @@
   color: var(--primary)!important;
 }
 .btn--icon {
-  font-size: 1.75rem!important;
+  font-size: 30px!important;
 }
 .btn--icon:hover .btn--fav {
   color: brown!important;
