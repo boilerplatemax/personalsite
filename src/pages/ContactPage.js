@@ -30,8 +30,8 @@ export default function ContactPage() {
             <div className="d-flex justify-content-between flex-row w-100">
               <div>
                 <p>
-                  <a href="mailto:maxsdev@gmail.com" className="text-white">
-                    maxsdev@gmail.com
+                  <a href="mailto:maximsdev@gmail.com" className="text-white">
+                    maximsdev@gmail.com
                   </a>
                 </p>
 
