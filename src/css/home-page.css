@@ -1,48 +1,48 @@
 .home-page__banner {
-  min-height: 400px!important;
-  position: relative!important;
+  min-height: 400px !important;
+  position: relative !important;
 }
 .home-page__text-column {
-  display: flex!important;
-  flex-direction: column!important;
-  justify-content: center!important;
-  align-items: left!important;
-  margin-top: auto!important;
-  margin-bottom: auto!important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: left !important;
+  margin-top: auto !important;
+  margin-bottom: auto !important;
 }
 .home-page__title * {
-  font-size: 3rem!important;
-  margin-top: 50px!important;
-  font-weight: bold!important;
+  font-size: 3rem !important;
+  margin-top: 50px !important;
+  font-weight: bold !important;
 }
 .home-page__repeat * {
-  font-size: 3rem!important;
-  margin: 0!important;
-  padding: 0!important;
-  margin-bottom: -20px!important;
+  font-size: 3rem !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  margin-bottom: -20px !important;
 }
 
 .home-page__repeat *:nth-child(4) {
-  opacity: 0.8!important;
+  opacity: 0.8 !important;
 }
 .home-page__repeat *:nth-child(3) {
-  opacity: 0.6!important;
+  opacity: 0.6 !important;
 }
 .home-page__repeat *:nth-child(2) {
-  opacity: 0.4!important;
+  opacity: 0.4 !important;
 }
 .home-page__repeat *:nth-child(1) {
-  opacity: 0.2!important;
+  opacity: 0.2 !important;
 }
 .home-page__title-lighter * {
-  font-size: 2rem!important;
-  font-weight: lighter!important;
+  font-size: 2rem !important;
+  font-weight: lighter !important;
 }
 .home-page__img-holder {
-  width: 100%!important;
-  position: relative!important;
+  width: 100% !important;
+  position: relative !important;
 }
 .home-page__img-holder img {
-  width: 100%!important;
-  height: auto!important;
+  width: 100% !important;
+  height: auto !important;
 }

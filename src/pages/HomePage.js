@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeImage from "../resources/images/homeimg.png";
 import { Animated } from "react-animated-css";
-import resume from '../resources/resume.pdf'
+import resume from "../resources/resume.pdf";
 export default function HomePage() {
   //Home page
 
@@ -19,7 +19,7 @@ export default function HomePage() {
             <Row>
               <Col lg={{ span: 6 }}>
                 <div className="home-page__img-holder">
-                  <img src={homeImage} alt='Myself coding'/>
+                  <img src={homeImage} alt="Myself coding" />
                 </div>
               </Col>
               <Col
@@ -31,12 +31,17 @@ export default function HomePage() {
                   <h1>Front-End React Developer</h1>
 
                   <div className="w-100 d-flex justify-content-start">
-                    <a href="/projects" className='p-2'>
+                    <a href="/projects" className="p-2">
                       <button className="btn btn--primary btn--large">
                         My Work
                       </button>
                     </a>
-                    <a href={resume} className='p-2' rel="noopener noreferrer" target='_blank'>
+                    <a
+                      href={resume}
+                      className="p-2"
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
                       <button className="btn btn--secondary btn--large">
                         Resume
                       </button>

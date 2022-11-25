@@ -9,8 +9,7 @@ import ContactPage from "./pages/ContactPage";
 import Footer from "./components/Footer";
 import Loading from "./components/Loading";
 
-const LazyProjects = React.lazy(()=>import("./pages/Projects"))
-
+const LazyProjects = React.lazy(() => import("./pages/Projects"));
 
 export const AppContext = React.createContext();
 
@@ -21,17 +20,23 @@ function App() {
 
   return (
     <Router>
-      <Navigation scrollToTopHandler={scrollToTopHandler}/>
-      <div className='content'>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/projects" element={<React.Suspense fallback={<Loading/>}><LazyProjects/></React.Suspense>} />
-        <Route path="/contact" element={<ContactPage/>} />
-
-      </Routes>
+      <Navigation scrollToTopHandler={scrollToTopHandler} />
+      <div className="content">
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route
+            path="/projects"
+            element={
+              <React.Suspense fallback={<Loading />}>
+                <LazyProjects />
+              </React.Suspense>
+            }
+          />
+          <Route path="/contact" element={<ContactPage />} />
+        </Routes>
       </div>
-      <Footer/>
+      <Footer />
     </Router>
   );
 }

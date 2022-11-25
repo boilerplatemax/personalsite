@@ -1,7 +1,10 @@
-.footer__link,.footer__link:link, .footer__link:active, .footer__link:visited{
-    color:var(--cultured)!important;
-    text-decoration: none!important;
-  }
-  .footer__link:hover{
-    color:var(--muted)!important;
-  }
+.footer__link,
+.footer__link:link,
+.footer__link:active,
+.footer__link:visited {
+  color: var(--cultured) !important;
+  text-decoration: none !important;
+}
+.footer__link:hover {
+  color: var(--muted) !important;
+}
