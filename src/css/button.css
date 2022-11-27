@@ -1,10 +1,4 @@
-.btn {
-  background-color: none !important;
-  border: none !important;
-  padding: 0 !important;
-  cursor: pointer !important;
-  z-index: 1 !important;
-}
+
 .btn--primary {
   padding: 5px 10px !important;
   background-color: transparent !important;
@@ -38,6 +32,11 @@
   color: var(--primary) !important;
 }
 .btn--icon {
+  background-color: none !important;
+  border: none !important;
+  padding: 0 !important;
+  cursor: pointer !important;
+  z-index: 1 !important;
   font-size: 30px !important;
 }
 .btn--icon:hover .btn--fav {

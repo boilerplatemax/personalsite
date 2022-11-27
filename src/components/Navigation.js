@@ -26,7 +26,7 @@ export default function Navigation({ resetSearch, scrollToTopHandler }) {
         {scrollPosition > 400 && (
           <Nav className="justify-content-center navbar__up-arrow">
             <button className="btn btn--icon" onClick={scrollToTopHandler}>
-              <UpArrow />
+              <UpArrow/>
             </button>
           </Nav>
         )}
