@@ -1,6 +1,4 @@
 import pocketbartender from "../resources/images/pocketbartender.png";
-
-import sudoku from "../resources/images/react-01.png";
 import phonebook from "../resources/images/react-02.png";
 import social from "../resources/images/react-03.png";
 import reactteacher from "../resources/images/react-07.png";
