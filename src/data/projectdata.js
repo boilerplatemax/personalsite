@@ -58,7 +58,7 @@ export const projects = [
       "React-animations",
     ],
     links: {
-      demo: "https://stupendous-brigadeiros-d5e197.netlify.app/",
+      demo: "pocketbartender.netlify.app/",
       github: "https://boilerplatemax.github.io/pocketbartender/",
     },
     image: pocketbartender,
