@@ -4,7 +4,12 @@ import maxImage from "../resources/images/maxwhite.png";
 
 export default function AboutPage() {
   //Home page
-
+  const songs= [
+    'https://open.spotify.com/embed/track/2pxCOdnHEZZ3A1XRNxjc1v?utm_source=generator',
+    'https://open.spotify.com/embed/track/45uDtD6s3y0V4tkWZrPDXy?utm_source=generator',
+    'https://open.spotify.com/embed/track/4lJ6YVXQ0jUk5ILu0PSrA4?utm_source=generator',
+    'https://open.spotify.com/embed/track/300DUx4tdtCdGEUXR032jA?utm_source=generator',
+    'https://open.spotify.com/embed/track/5xQr5TxQ77siaKfuyiJbT0?si=bdce40a799aa4a6d?utm_source=generator']
   return (
     <div id="about-page" className="mt-5">
       <Container>
@@ -93,56 +98,27 @@ export default function AboutPage() {
             <h2>What I've been listening to lately</h2>
             <hr />
             <div className="about__song-holder">
-              <iframe
+              {songs.map(
+                song=>{
+                  return(
+                    <iframe
                 title="Wake up alone Spotify"
                 style={{ borderRadius: "12px" }}
-                src="https://open.spotify.com/embed/track/2pxCOdnHEZZ3A1XRNxjc1v?utm_source=generator"
+                src={song}
                 width="100%"
                 height="302"
                 frameBorder="0"
                 allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
                 loading="lazy"
+                as=""
+                preload="true"
+                key={song}
               ></iframe>
-              <iframe
-                title="Sand People Spotify"
-                style={{ borderRadius: "12px" }}
-                src="https://open.spotify.com/embed/track/45uDtD6s3y0V4tkWZrPDXy?utm_source=generator"
-                width="100%"
-                height="352"
-                frameBorder="0"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"
-              ></iframe>
-              <iframe
-                title="Ooh la la Spotify"
-                style={{ borderRadius: "12px" }}
-                src="https://open.spotify.com/embed/track/4lJ6YVXQ0jUk5ILu0PSrA4?utm_source=generator"
-                width="100%"
-                height="302"
-                frameBorder="0"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"
-              ></iframe>
-              <iframe
-                title="Palace / Curse Spotify"
-                style={{ borderRadius: "12px" }}
-                src="https://open.spotify.com/embed/track/300DUx4tdtCdGEUXR032jA?utm_source=generator"
-                width="100%"
-                height="302"
-                frameBorder="0"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"
-              ></iframe>
-              <iframe
-                title="Hands up Spotify"
-                style={{ borderRadius: "12px" }}
-                src="https://open.spotify.com/embed/track/5xQr5TxQ77siaKfuyiJbT0?si=bdce40a799aa4a6d?utm_source=generator"
-                width="100%"
-                height="302"
-                frameBorder="0"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"
-              ></iframe>
+                  )
+                }
+              )}
+              
+              
             </div>
             {/* <img src={maxImage} className="about__img" /> */}
           </Col>

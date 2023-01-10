@@ -21,7 +21,7 @@ export default function Project({ project, index }) {
             >
               <Card.Title>{project.title}</Card.Title>
             </a>
-            {index === 0 && (
+            {index === 1 && (
               <span className="text-muted">
                 This app is hosted on Heroku and needs sometime to load
               </span>
